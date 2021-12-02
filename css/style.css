@@ -1,0 +1,89 @@
+/*  \/\/\/\/\/\/\/\/\/\/\/\/\/\Regole generali/\/\/\/\/\/\/\/\/\/\/\/\/\/  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #0061FF;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    color: grey;
+}
+
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\Regole generali/\/\/\/\/\/\/\/\/\/\/\/\/\/\ */
+
+/* Inizio sezione navigazione */
+
+nav {
+    height: 100px; 
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding: 10px;
+}
+
+nav>ul>a>img {
+    vertical-align: middle;
+}
+
+nav>ul>li {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 70px;
+}
+
+.menu{
+    display: inline-block;
+    width: 40%;
+}
+nav>ul>li>a {
+    display: inline-block;
+    text-decoration: none;
+    color: #222222;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    background-color: #aaa;
+}
+
+li:hover {
+    border-bottom: solid 2px green;
+}
+
+.menu-right{
+    float: right;
+    width: auto;
+}
+
+.menu-left{
+    width: auto;
+}
+
+nav ul a {
+    display: inline-block;
+}
+
+main{
+    margin-top: 100px;
+}
+
+/* Fine sezione navigazione */
+
+/* Inizio prima sezione */
+
+.jumbo img{
+    display: block;
+    width: 700px;
+}
