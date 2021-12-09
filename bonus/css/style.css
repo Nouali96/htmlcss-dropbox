@@ -111,6 +111,36 @@ nav ul a {
     display: inline-block;
 }
 
+/* Inizio bonus */
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 2px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content>li{
+    line-height: 40px;
+}
+
+.dropdown-content>li>a{
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.menu>li:hover .dropdown-content {
+    display: block;
+}
+/* Fine bonus */
+
 /* Fine sezione navigazione */
 
 /* Inizio prima sezione */
@@ -432,6 +462,7 @@ nav ul a {
 .container-domande p{
     float: right;
 }
+
 /* Fine sezione FAQ */
 
 /* Inizio sezione footer */
@@ -480,5 +511,5 @@ hr{
 
 .container-footer li>a:hover{
     text-decoration: underline;
-}                                                    
+}
 /* Fine sezione footer */
