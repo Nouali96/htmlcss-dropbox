@@ -111,6 +111,12 @@ nav ul a {
     display: inline-block;
 }
 
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Inizio bonus */
 .menu>li {
     position: relative;
